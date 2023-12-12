@@ -1,0 +1,82 @@
+.nav-bar-txt{
+    color: rgba(40, 26, 4, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-bar-txt:hover{
+    color: rgba(206, 141, 43, 1);
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-bar-div-main{
+    position: sticky;
+    top: 0; z-index: 1 ;
+    background-color: rgba(160, 102, 15, 1); 
+    height: 80px;
+}
+.nav-bar-div-logo{
+    display: inline;
+    position: absolute;
+    left: 50px;
+    top: 5px;
+}
+.nav-bar-img-logo{
+    height: 70px;
+}
+.nav-bar-div{
+    position: absolute; 
+    right: 30px; 
+    top: 20px; 
+    display: inline;
+
+}
+.carosal-div{
+    background-color: rgba(239, 217, 184, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.carosal-div-sub{
+    background-color: rgba(239, 217, 184, 1);
+    width: 500px;
+    height: 250px; 
+    overflow: hidden;
+}
+.catogory-div-main{
+    background-color: rgba(217, 166, 90, 1);
+}
+.catogory-txt-div{
+    background-color: rgba(217, 166, 90, 1);
+    height: 30px;   
+}
+.catogory-txt{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    color: rgba(40, 26, 4, 1);
+}
+.catogory-div{    
+    background-color: rgba(217, 166, 90, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.catogory-div > div{
+    padding: 2px;
+    overflow: hidden;
+}
+.catogary-sub-img{
+    height: 125px;
+    width: 125px;
+    border-radius: 10px;
+
+
+    /* object-fit: cover; */
+    object-fit: contain;
+    object-position: left;
+    border-color: black;
+    border-width: 1px;
+    border-style:solid;
+}
